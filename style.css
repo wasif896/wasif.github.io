@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    overflow: hidden;
+}
+.menu li:last-child{
+    padding-right: 200px;
+}
+.menu li{
+    display: inline-block;
+    padding: 30px;
+}
+.menu li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.first{
+    width: 100%;
+    height: 100%;
+    background: red;
+}
+.first .logo{
+    padding-left: 10%;
+}
+.row-1 .col-7{
+    margin-top: 24%;
+}
+.row-1 .col-7 h6{
+    padding: 1%;
+    letter-spacing: 4px;
+}
+.row-1 .col-7 h1{
+    font-size: 59px;
+    font-weight: bold;
+    padding: 15px 0;
+}
+.row-1 .col-7 p{
+    padding: 2% 6%;
+}
+.row-1 .col-7 button{
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 30px 0;
+}
+.row-1 .col-5{
+    margin-top: 15%;
+}
+.row-1 .col-5 img{
+    height: 110%;
+}
+.section-1{
+    padding: 8% 0;
+}
+.section-1 .pray img{
+  opacity: 0.8;
+  width: 100%;
+  height: 650px;
+  border-radius: 5px;
+}
+.section-1 .row .col-6 .pannal{
+    position: absolute;
+    top: 18%;
+    left: -18%;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 25px 42px black;
+    padding: 60px;
+}
+.section-1 .row .col-6 .pannal h1{
+    font-weight: bold;
+}
+.cover{
+    background-image: url(fi.jpg);
+    position: relative;
+    background-position: -37px -660px;
+    background-size: 103%;
+    width: 100%;
+    height: 50%;
+}
+.cover .contant{
+    background: rgba(0,0,0,0.7);
+    height: 100%;
+    width: 100%;
+    padding-top: 6%;
+}
+.section-2 .container h1{
+    font-weight: bold;
+    padding: 10px 0;
+}
+.numbers .react{
+    position: relative;
+    background: white;
+    width: 300px;
+    height: 210px;
+    padding-top: 2%;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 50px 0px red;
+    margin-top: -5%;
+}
+.numbers .react h1{
+    color: orangered;
+    font-size: 70px;
+}
+.numbers .react p{
+    font-weight: bold;
+}
+.purchase h1{
+    margin-top: 120px;
+    margin-bottom: 10px;
+    font-family: monospace;
+    font-weight: bold;
+}
+.purchase p{
+    margin-bottom: 100px;
+}
+.cards .card{
+    width: 22rem;
+    margin: 3vmin;
+}
+.cards .card .title{
+    padding: 20px 0;
+    background: rgb(238, 232, 232);
+    
+}
+.cards .card .title h5{
+    font-weight: bold;
+}
+.cards .card .card-text{
+     padding: 30px 20px;
+}
+.cards .card .pricing{
+    padding: 20px 0;
+}
+.cards .card .pricing h1{
+    font-size: 70px;
+    padding: 20px 0;
+    margin-bottom: 50px;
+}
+.section-3{
+    background-color: red;
+    width: 100%;
+    height: 40%;
+    margin: 80px 0;
+    padding: 90px 0;
+}
+.section-3 .row .col-12 h1{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.last button{
+    border-radius: 40px;
+    width: 190px;
+    padding: 0 10px;
+    border: none;
+}
